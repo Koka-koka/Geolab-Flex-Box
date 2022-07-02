@@ -1,0 +1,47 @@
+.section {
+  background-color: lightgrey;
+}
+.container {
+  background: aqua;
+  width: 1160px;
+  margin: 0 auto;
+}
+.box-wraper {
+  display: flex;
+  justify-content: space-between;
+}
+.left-box {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+}
+.right-box {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+}
+.block-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block1 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+.block2 {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+}
+.block3 {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+}
+.block4 {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+}
