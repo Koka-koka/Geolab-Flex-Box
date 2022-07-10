@@ -1,9 +1,8 @@
 .section {
-  background-color: lightgrey;
+  background-color: lightgreen;
 }
 .container {
-  background: aqua;
-  width: 1160px;
+  max-width: 1260px;
   margin: 0 auto;
 }
 .box-wraper {
@@ -44,4 +43,100 @@
   width: 150px;
   height: 150px;
   background-color: pink;
+}
+.bg-image {
+  background-image: url('images/demo.jpg');
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-section {
+  background-color: orange;
+  margin-bottom: 100px;
+  padding: 50px 0;
+}
+.services {
+  text-align: center;
+  line-height: 1.25rem;
+}
+.title-block {
+  max-width: 712px;
+  margin: 0 auto;
+}
+.title-block h3 {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.title-block h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.title-block p {
+  font-size: 17px;
+  color: white;
+}
+.line-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.line-block {
+  width: 370px;
+  height: 450px;
+  background-color: #cceef0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10%;
+  box-shadow: 4px 8px #888888;
+}
+.line-block img {
+  width: 125px;
+  height: 125px;
+}
+.line-block p {
+  max-width: 375px;
+  margin: 30px 0;
+}
+.line-block a {
+  width: 130px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  border-radius: 23px;
+}
+.line-block a:hover {
+  background-color: lightgreen;
+  color: black;
 }
